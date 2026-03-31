@@ -26,25 +26,20 @@ The Automated Banking & ATM Simulation is a full-stack project designed to demon
 * Git installed (optional, for cloning).
 
 ### Installation
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/specter17/Banking-System-Java.git](https://github.com/specter17/Banking-System-Java.git)
-    cd Banking-System-Java
-    ```
 
-2.  **Compile the Java Backend:**
+1.  **Compile the Java Backend:**
     Open your terminal/command prompt in the project root folder and run:
     ```bash
     javac -d bin src/banking/exceptions/*.java src/banking/utils/*.java src/banking/core/*.java src/banking/server/*.java
     ```
 
-3.  **Start the Server:**
+2.  **Start the Server:**
     Run the following command to start the application:
     ```bash
     java -cp bin banking.server.BankingServer
     ```
 
-4.  **Access the Application:**
+3.  **Access the Application:**
     Open your web browser (Chrome/Edge/Firefox) and navigate to:
     `http://localhost:8000`
 
