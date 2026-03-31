@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { width: 400px; }
+.header { text-align: center; margin-bottom: 20px; color: #333; }
+.card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; }
+.balance-box { text-align: center; border-left: 5px solid #2ecc71; }
+.amount { font-size: 40px; font-weight: bold; color: #333; }
+.message { text-align: center; color: blue; font-weight: bold; margin-bottom: 15px; height: 20px; }
+input, select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+button { width: 100%; padding: 12px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+button:hover { background: #2980b9; }

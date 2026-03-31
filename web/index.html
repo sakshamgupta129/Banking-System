@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Banking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Online Banking</h1>
+        </div>
+
+        <div class="card balance-box">
+            <h2>Current Balance</h2>
+            <div class="amount">${{BALANCE}}</div>
+        </div>
+
+        <div class="message">{{MESSAGE}}</div>
+
+        <div class="card action-box">
+            <form action="/process" method="POST">
+                <label>Transaction Type:</label>
+                <select name="type">
+                    <option value="deposit">Deposit</option>
+                    <option value="withdraw">Withdraw</option>
+                </select>
+
+                <label>Amount:</label>
+                <input type="number" name="amount" required placeholder="Enter Amount">
+
+                <button type="submit">Process Transaction</button>
+            </form>
+        </div>
+        
+        <p style="text-align: center; margin-top: 20px;">
+            Check "BankStatement.txt" in project folder for audit logs.
+        </p>
+    </div>
+</body>
+</html>
